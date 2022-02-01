@@ -33,6 +33,7 @@
 <p>So, now you have an idea of how investing in <strong>lipstick packaging boxes</strong> can increase sales. So, what are you waiting for? Get yours now.</p></br>
 <p>&nbsp;</p></br>
     </div>
+    </br>
 </template>
 
 <script lang="ts">
