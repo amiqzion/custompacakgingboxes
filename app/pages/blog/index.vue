@@ -4,7 +4,7 @@
  
       <h1 class="text-lg md:text-xl lg:text-4xl xl:text-6xl" ><strong>Here Is How To Make Lipstick Packaging Boxes To Upsurge Sales</strong></h1></br>
 <p class="text-base font-light">Lipsticks are the most versatile product in the cosmetic line. It has several reasons. You get variety like gloss, matte, bullet lipsticks, lipsticks with a brush to apply, Cryon lipsticks for those who cannot handle liquid types and lip pencils to make a clean base. Such a variety in a single product, how can it not become people&rsquo;s favourite product to play with.</p></br>
-<pclass="text-base font-light" >Another reason for being the best product is that women can create a whole go-to look with a single lipstick. It is so because these lipsticks can play the role of eyeshadow and bluish on when needed as well. So, when you are in a hurry and can&rsquo;t find products, just gran a lipstick and create your favourite soft look in one minute.</p></br>
+<p class="text-base font-light" >Another reason for being the best product is that women can create a whole go-to look with a single lipstick. It is so because these lipsticks can play the role of eyeshadow and bluish on when needed as well. So, when you are in a hurry and can&rsquo;t find products, just gran a lipstick and create your favourite soft look in one minute.</p></br>
 <p class="text-base font-light">With the ever-growing love of people for lipsticks, makeup experts keep on introducing new shades and formulas for lipsticks to give customers variety. However, innovations demand new packaging as well. In fact, <strong>lipstick packaging boxes</strong> play a crucial role in making your new editions look different from the previous ones. Getting impressed by the box, makeup lovers do not think twice before investing in the product.</p></br>
 <p class="text-base font-light">This blog will tell you some key points to design <strong>packaging for lipstick</strong> to uplift brand value and product sales.</p></br>
 <h2 class="text-base md:text-lg lg:text-xl xl:text-2xl"><strong>Choose Resilient Packaging Materials For Lipstick Packaging</strong></h2></br>
@@ -33,31 +33,6 @@
 <p>So, now you have an idea of how investing in <strong>lipstick packaging boxes</strong> can increase sales. So, what are you waiting for? Get yours now.</p></br>
 <p>&nbsp;</p></br>
     </div>
-
-    <div class="flex flex-wrap md:-mx-4 pb-20">
-      <div v-for="(post, index) in posts" :key="index" class="w-full md:w-1/2 my-4 md:px-4">
-        <div class="post">
-          <nuxt-link :to="`/blog/${post.slug}`">
-            <img
-              :alt="post.title"
-              class="w-full"
-              :src="post.featuredImage || 'https://source.unsplash.com/random/640x340'"
-            />
-            <div class="p-6 bg-white">
-              <h2 class="text-2xl mb-2">{{ post.title }}</h2>
-
-              <p class="text-base font-light">
-                {{ post.excerpt }}
-              </p>
-
-              <h6 class="text-blue-600 mt-4 font-medium">Read more</h6>
-            </div>
-          </nuxt-link>
-        </div>
-      </div>
-    </div>
-    <Pagination v-if="totalPages > 1" :current-page="currentPage" :total-pages="totalPages" />
-  </section>
 </template>
 
 <script lang="ts">
